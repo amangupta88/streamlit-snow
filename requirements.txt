@@ -1,8 +1,2 @@
 streamlit
 snowflake.snowpark
-snowflake.snowpark.functions
-re
-io
-pandas
-time
-pandas.io.formats.style
