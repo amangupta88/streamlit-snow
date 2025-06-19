@@ -11,15 +11,7 @@ from pandas.io.formats.style import Styler
 # --- Snowflake Connection Setup for SSO ---
 # It's highly recommended to use environment variables or a secrets file (.streamlit/secrets.toml)
 # for production applications instead of hardcoding credentials.
-connection_parameters = {
-    "account": "WB19670-C2GPARTNERS", # e.g., 'xyz12345.us-east-1'
-    "user": "AMAN.GUPTA@BLEND360.COM", # Often your email address for SSO
-    "authenticator": "externalbrowser", # This enables browser-based SSO
-    "role": "PUBLIC", # e.g., 'ACCOUNTADMIN' or a custom role
-    "warehouse": "POWERHOUSE",
-    "database": "SANDBOX", # Ensure this matches your setup
-    "schema": "DS" # Ensure this matches your setup
-}
+
 
 # Initialize Snowpark Session
 @st.cache_resource
